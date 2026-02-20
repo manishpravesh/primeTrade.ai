@@ -3,6 +3,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const dotenv = require("dotenv");
 const authRoutes = require("./routes/authRoutes");
+const taskRoutes = require("./routes/taskRoutes");
 const { errorHandler } = require("./middlewares/errorHandler");
 const ApiError = require("./utils/ApiError");
 
@@ -19,6 +20,7 @@ app.get("/health", (req, res) => {
 });
 
 app.use("/api/v1/auth", authRoutes);
+app.use("/api/v1/tasks", taskRoutes);
 
 app.use((req, res, next) => {
   next(new ApiError(404, "Route not found"));
