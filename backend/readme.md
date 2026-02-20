@@ -18,3 +18,16 @@
 ## Health Check
 
 `GET /health`
+
+## Auth
+
+- `POST /api/v1/auth/register`
+- `POST /api/v1/auth/login`
+
+## Tasks
+
+- `GET /api/v1/tasks`
+- `POST /api/v1/tasks`
+- `GET /api/v1/tasks/:id`
+- `PATCH /api/v1/tasks/:id`
+- `DELETE /api/v1/tasks/:id`
