@@ -10,31 +10,31 @@ This repo contains the backend API and frontend UI for the internship assignment
 1. Copy `backend/.env.example` to `backend/.env` and update the values.
 2. Install dependencies:
 
-	```bash
-	cd backend
-	npm install
-	```
+   ```bash
+   cd backend
+   npm install
+   ```
 
 3. Start the API:
 
-	```bash
-	npm run dev
-	```
+   ```bash
+   npm run dev
+   ```
 
 ## Frontend Setup
 
 1. Install dependencies:
 
-	```bash
-	cd frontend
-	npm install
-	```
+   ```bash
+   cd frontend
+   npm install
+   ```
 
 2. Start the UI:
 
-	```bash
-	npm run dev
-	```
+   ```bash
+   npm run dev
+   ```
 
 ## Postman Collection
 

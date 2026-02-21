@@ -278,14 +278,22 @@ export default function App() {
           {authMode === "register" && (
             <label>
               Role
-              <select name="role" value={authForm.role} onChange={handleAuthChange}>
+              <select
+                name="role"
+                value={authForm.role}
+                onChange={handleAuthChange}
+              >
                 <option value="user">User</option>
                 <option value="admin">Admin</option>
               </select>
             </label>
           )}
           <button type="submit" className="primary" disabled={loading}>
-            {loading ? "Working..." : authMode === "login" ? "Login" : "Register"}
+            {loading
+              ? "Working..."
+              : authMode === "login"
+                ? "Login"
+                : "Register"}
           </button>
           {isAuthed && (
             <button type="button" className="ghost" onClick={logout}>
@@ -343,7 +351,11 @@ export default function App() {
               <option value="done">Done</option>
             </select>
           </label>
-          <button type="submit" className="primary" disabled={!isAuthed || loading}>
+          <button
+            type="submit"
+            className="primary"
+            disabled={!isAuthed || loading}
+          >
             {loading ? "Saving..." : "Create task"}
           </button>
         </form>

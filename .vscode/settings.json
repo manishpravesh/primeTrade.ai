@@ -1,0 +1,8 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^Set-Location \"c:\\\\Users\\\\INSP 15\\\\Desktop\\\\primeTrade\\\\backend\"; npm install$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
