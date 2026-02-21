@@ -1,4 +1,4 @@
-# PrimeTrade Assignment
+# PrimeTrade
 
 This repo contains the backend API and frontend UI for the internship assignment.
 
